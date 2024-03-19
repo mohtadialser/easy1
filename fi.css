@@ -1,0 +1,375 @@
+body{
+    background-color: wheat;
+}
+.fd{
+    width: 0;
+    height: 0;
+    transition-duration: 1s;
+    border-top: 72px solid transparent;
+    border-left: 140px solid wheat;
+    border-bottom: 79px solid transparent;
+    animation-name: cooooo;
+    animation-duration: 1000s;
+    animation-delay: 22s;
+     
+    top: 101px;
+position: absolute;
+}
+@keyframes cooooo{
+    0%{
+        border-left: 140px solid wheat;
+           }
+           1%{
+            border-left: 140px solid green;
+           }
+           100%{   
+            border-left: 140px solid green;
+            }
+}
+/*.tra{
+    width: 120px;
+    height: 120px;
+    clip-path: polygon(40% 30%, 45% 100%, 90% 60%); 
+    background-color: #009dff;
+ 
+    margin-top: 20px;
+    
+}*/
+.gr
+{ 
+    margin-top: 40px;
+    position: absolute;
+    width: 600px;
+    height: 100px;
+    transition-duration: 1s;
+    animation-name: coooo;
+    animation-duration: 1000s;
+    animation-delay: 10s;
+        
+    top: -39px;
+color: wheat;
+    background-color: wheat;
+}
+    @keyframes coooo{
+        0%{
+            color: wheat;
+            background-color: wheat
+               }
+               1%{
+                color: red;
+                   background-color:red;
+               }
+               100%{   
+                color: red;
+                   background-color: red;
+                }
+    }
+
+
+    .white{
+         width: 600px;
+        height: 350px;
+        transform: skewY(360deg);
+        background-color: wheat;
+        position: relative;
+        transition-duration: 9s;
+       
+        animation-name: cooo;
+    animation-duration: 1000s;
+    animation-delay: 26s;
+        
+       
+    }
+    @keyframes cooo{
+        0%{
+            background-color: wheat
+               }
+               1%{
+                   background-color: white;
+               }
+               100%{   
+                   background-color: white;
+                }
+    }
+    .img
+    {
+        margin-top: 140px;
+    position: absolute;
+    width: 140px;
+    height: 149px;
+    left: 216px;
+    transition-duration: 1s;
+    top: -39px;
+color: white;
+    background-color: white;
+    background-image: url("S.jpg");
+    background-repeat: no-repeat;
+    background-position: 40%;
+    background-size: 140px 142px;
+    transform: scaleX(0);
+    animation-name: cso;
+    animation-duration: 1000s;
+    animation-delay: 40s;
+    }
+    @keyframes cso{
+        0%{
+     transform: scaleX(0);
+        }
+        1%{
+            transform: scaleX(1);
+        }
+        
+        100%{   
+            transform: scaleX(1);
+        }
+        
+       }
+    
+  
+    .black
+    {
+        border-radius: 1px;
+        margin-top:0px;
+        position: absolute;
+        width: 600px;
+        height: 100px;
+        transition-duration: 6s;
+        transition-duration: 2s;
+
+        background-color: wheat    ;
+        bottom: 0px;
+        animation-name: coo;
+    animation-duration: 1000s;
+    animation-delay: 32s;
+            
+    }
+    @keyframes coo{
+    0%{
+        background-color: wheat
+           }
+           1%{
+               background-color: black;
+           }
+           100%{   
+               background-color: black;
+            }
+}
+    .fex:hover{
+        transition-duration: 10s;
+        padding: 0;
+        margin: 0;
+        flex-direction: column;
+    }
+
+    .fex
+    {
+        padding: 0;
+        margin: -4px;
+        background-color: #eee;
+        display: flex;
+        margin: 20px auto;
+
+    }
+    .fex div{
+        text-align: center;
+        padding: 20px;
+        
+        width: 25%;
+        color: darkolivegreen;
+        background-color: floralwhite;
+    }
+   .one{
+    color:wheat;
+    transition: 4s;
+    top: 1%;
+    position: absolute;    
+    font-size: 30px;
+     left: 960px;    
+     
+      animation-name: co;
+    animation-duration: 1000s;
+    animation-delay: 3.5s; 
+   }
+   @keyframes co{
+    0%{
+ color: wheat
+    }
+    1%{
+        color: black;
+    }
+    100%{   
+        color: black;
+    }
+    
+   }
+
+   .three{
+    color: wheat;
+    transition: 4s;
+    top: 10%;
+    position: absolute;    
+    font-size: 30px;
+     left: 960px;     
+    animation-name: co3;
+    animation-duration: 1000s;
+    animation-delay: 13s;
+   } 
+   @keyframes co3{
+    0%{
+        color: wheat
+           }
+           1%{
+               color: black;
+           }
+           100%{   
+               color: black;
+           }
+           
+   }
+
+   .two{
+    color: wheat;
+    transition: 4s;
+    top: 5%;
+    position: absolute;    
+    font-size: 30px;
+     left: 700px;  
+    animation-name: co2;
+    animation-duration: 1000s;
+    animation-delay: 8.5s;
+   }
+   @keyframes co2{
+    0%{
+        color: wheat
+           }
+           1%{
+               color: black;
+           }
+           100%{   
+               color: black;
+           }
+           
+   }
+ 
+   .four{
+    color: wheat;
+    transition: 4s;
+    top: 15%;
+    position: absolute;    
+    font-size: 30px;
+     left: 700px;     
+    animation-name: co4;
+    animation-duration: 1000s;
+    animation-delay: 17.5s;
+   } 
+   @keyframes co4{
+    0%{
+        color: wheat
+           }
+           1%{
+               color: black;
+           }
+           100%{   
+               color: black;
+           }
+    
+   }
+
+   .five{
+    color: wheat;
+    transition: 4s;
+    top: 20%;
+    position: absolute;    
+    font-size: 30px;
+     left: 960px;    
+        animation-name: co5;
+    animation-duration: 1000s;
+    animation-delay: 22.5s;
+   }
+   @keyframes co5{
+    0%{
+        color: wheat
+           }
+           1%{
+               color: black;
+           }
+           100%{   
+               color: black;
+           }
+    
+   }
+
+   .six{
+    color: wheat;
+    transition: 4s;
+    top: 25%;
+    position: absolute;    
+    font-size: 30px;
+    left: 700px;     /**/
+    animation-name: co6;
+    animation-duration: 1000s;
+    animation-delay: 24.5s;
+   }
+   @keyframes co6{
+    0%{
+        color: wheat
+           }
+           1%{
+               color: black;
+           }
+           100%{   
+               color: black;
+           }
+    
+   }
+
+   .seven{
+    color: wheat;
+    transition: 4s;
+    top: 30%;
+    position: absolute;    
+    font-size: 30px;
+    left: 960px;     /**/
+    animation-name: co7;
+    animation-duration: 1000s;
+    animation-delay: 32s;*/
+   }
+   @keyframes co7{
+    0%{
+        color: wheat
+           }
+           1%{
+               color: black;
+           }
+           100%{   
+               color: black;
+           }
+    
+   }
+
+   .eight{
+    color: wheat;
+    transition: 4s;
+    top: 35%;
+    position: absolute;    
+    font-size: 30px;
+     left: 700px;     /**/
+    animation-name: co8;
+    animation-duration: 1000s;
+    animation-delay: 37s;*/
+   }
+   @keyframes co8{
+    0%{
+        color: wheat
+           }
+           1%{
+               color: black;
+           }
+           100%{   
+               color: black;
+           }
+     
+   }
+
+   
+   

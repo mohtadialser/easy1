@@ -1,0 +1,51 @@
+body{
+    margin-bottom: 200px;
+    background-image: url("OIP.jfif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+form{
+    background-image: url("OIP.jfif");
+    margin-left: 31%;
+    width: 500px;
+    height: 150px;
+    margin-top: 200px;
+    background-size: cover;
+    border-radius: 50px ;
+    
+    
+}
+.namea{
+    text-align: center;
+    border-radius: 20PX;
+    margin-top: 8%;
+    display: inline-block;
+    margin-left: 35%;
+    height: 19px;
+    size: 20px;
+}
+
+
+
+
+.pass
+{
+    background-image: url("R.jfif");
+    background-size: 800px;
+    color: black;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 11px;
+    display: block;
+    margin-left: 35%;
+    height: 19px;
+}
+.ent
+{
+    border-radius: 20px;
+    margin-top: 19px;
+    margin-left: 42%;
+    width: 100px;
+    
+}
